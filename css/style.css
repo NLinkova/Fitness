@@ -108,6 +108,11 @@ a:hover {
     line-height: 28px;
     color: #FFFFFF;
 }
+
+.navigation {
+    display:none;
+}
+
 .intro {
     margin: 20px auto 0;
     max-width: 1280px;
@@ -199,6 +204,41 @@ h2 {
     text-align: left;
 }
 
+.classes__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.classes__subtitle {
+    margin: 32px 20px;
+    max-width: 940px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.classes__caption {
+    margin: 32px 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.classes__text {
+    margin: 32px 10px;
+    max-width: 940px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+}
 .footer {
     background-color: #1c3a5f;
     padding: 15px;

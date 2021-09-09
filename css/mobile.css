@@ -1,0 +1,41 @@
+@media screen and (max-width: 550px){
+    #mobile-menu-btn{
+        display: none;    
+    }
+    #hamburger-btn{
+        display: block;
+    }
+    .navigation{
+        height:auto;
+    }
+    .navigation .nav-box{
+        display:block;
+        height:0;
+        width:100%;
+        margin-top:0;
+        transition: height 0.5s;
+    }
+    .navigation .nav-item{
+        width:100%;
+    }
+    #mobile-menu-btn:checked ~ .nav-box{
+        height:5.5em;
+    }
+    #mobile-menu-btn:checked ~ #hamburger-btn{
+        display: none;
+    }
+    #mobile-menu-btn:checked ~ #close-btn{
+        display: block;
+    }
+
+    .classes__row {
+        flex-direction: column;
+    }
+}
+
+#hamburger-btn{
+    display:none;
+}
+#close-btn{
+    display:none;
+}
