@@ -33,15 +33,6 @@
     src: url("../fonts/Inter/Inter-Black.woff2") format("woff2"),
          url("../fonts/Inter/Inter-Black.woff") format("woff");
 }
-  
-@keyframes scale {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(2);
-    }
-}
 
 body {
     max-width: 100%;
@@ -69,20 +60,18 @@ header {
 .logo {
     width: 200px;
     display: inline-block;
-    margin: 0 auto;
-   
+    margin: 0 auto;   
 }
 
 .header__title {
     text-rendering: optimizeLegibility;
-    margin: 0 auto;
+    margin: 10px auto;
     max-width: 720px;
     font-weight: 700;
     font-size: 60px;
     line-height: 60px;
     text-align: center;
-    color: #b5c2c7;
-    
+    color: #b5c2c7;    
 }
 .header__nav {
     margin: 20px auto;
@@ -110,14 +99,12 @@ a:hover {
     opacity: 0.5;
 }
 
-.nav__link {
-  
+.nav__link {  
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-  
 }
 .intro {
     margin: 20px auto 0;
@@ -151,7 +138,7 @@ a:hover {
 }
 
 .intro__caption {
-    margin: 8px auto 0 0;
+    margin: 10px auto 10px 0;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -161,26 +148,77 @@ a:hover {
     align-self: flex-start;
 }
 
+.about {
+    margin: 20px auto;
+    max-width: 1280px;
+}
 
+.about__title {
+    text-rendering: optimizeLegibility;
+    margin: 20px auto;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #1c3a5f;
+}
 
+.about__parag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
-footer {
-    background-image: url("../images/pexels-moose-photos-1038001.jpg");
-	background-size: contain;
-    background-repeat: repeat-x;
+.about__img {
+    max-width: 300px;
+}
+
+.about__text {
+    margin: 10px;
+    max-width: 940px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.footer {
+    background-color: #1c3a5f;
     padding: 15px;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 footer li {
     display: block;
 }
 
-footer p {
+.footer__nav {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer__link {
+    margin-right: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: opacity 0.2s linear;
+    opacity: 1;
+}
+
+.footer__list {
     margin:  0 20px 0 0;
-    font-size: 14px;
-    font-weight: 700;
-    color: #fff;
-    text-shadow: black 1px 1px 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;    
 }
