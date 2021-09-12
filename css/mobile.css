@@ -1,9 +1,7 @@
 @media screen and (max-width: 550px) {
     header {
         flex-direction: row;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 20px;
+        padding: 10px;
     }
 
     .logo {
@@ -29,6 +27,7 @@
 
     .hamburger__img {
         width: 40px;
+        margin-left: 10px;
     }
 
     .header__nav {
@@ -45,6 +44,7 @@
 
     .header__nav_mobile ul {
         border: 2px rgb(255, 255, 255) solid;
+        margin: 0 10px;
     }
 
     .nav__link {
