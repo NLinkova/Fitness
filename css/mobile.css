@@ -84,4 +84,26 @@
     .about__items {
         grid-template-columns: repeat(1, 80%);
     }
+
+    .classes__row {
+        flex-direction: column;
+        margin: 30px auto;
+    }
+
+    .classes__subtitle {
+        margin: 10px;
+        max-width: 520px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .classes__caption {
+        margin: 10px;       
+    }
+    
+    .classes__text {
+        margin: 10px;
+        max-width: 520px;
+    }
+    
 }
