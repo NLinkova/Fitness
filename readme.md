@@ -11,6 +11,6 @@ There are some development features on this web page. Inline methodology: flex, 
 The project could be used as an example of simple web site with 5 pages. 
 
 ### Weblink
-https://nlinkova.github.io/Fitness/
+https://nlinkova.github.io/fitness/
 
 
