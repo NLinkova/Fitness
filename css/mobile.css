@@ -6,6 +6,7 @@
 
     .logo {
         width: 80px;
+        margin: 10px;
     }
 
     h1 {
@@ -29,7 +30,7 @@
         font-weight: 700;
         font-size: 30px;
         line-height: 30px;
-        margin-right: 40px;
+        margin-left: 10px;
     }
 
     .hamburger__img {
@@ -54,7 +55,13 @@
 
     .header__nav_mobile ul {
         border: 2px rgb(255, 255, 255) solid;
-        margin: 0 10px;
+        margin: 10px;
+        background-color: #1c3a5f;
+        width: 50px;       
+    }
+
+    .header__nav_mobile li {
+        text-align: right;       
     }
 
     .nav__link {
@@ -62,6 +69,7 @@
         display: block;
         font-size: 14px;
         line-height: 18px;
+        
     }
 
     .header__nav_mobile { 
