@@ -25,10 +25,11 @@
     }
 
     .header__title {
-        max-width: 400px;
+        max-width: 150px;
         font-weight: 700;
         font-size: 30px;
         line-height: 30px;
+        margin-right: 40px;
     }
 
     .hamburger__img {
@@ -42,6 +43,9 @@
 
     .navigation_mobile {
         display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
     }
   
     #hamburger {
