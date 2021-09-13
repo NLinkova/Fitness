@@ -18,6 +18,12 @@
         line-height: 30px;
     }
 
+    .intro__subtitle {
+        max-width: 520px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
     .header__title {
         max-width: 400px;
         font-weight: 700;
@@ -104,6 +110,14 @@
     .classes__text {
         margin: 10px;
         max-width: 520px;
+    }
+
+    .contact__img {
+        display: none;
+    }
+
+    input[type=submit] {
+        width: 100%;
     }
     
 }
