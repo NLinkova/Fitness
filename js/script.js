@@ -7,7 +7,6 @@ function fetchHeader () {
       document.getElementById("header").innerHTML += data; 
   })
 }
-console.log(header);
 function fetchFooter() {
   let footer = document.getElementsByTagName("footer")
   
